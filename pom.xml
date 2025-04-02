@@ -31,7 +31,13 @@
             <url>http://repourl/repository/maven-releases/</url>
         </repository>
     </distributionManagement>     -->
-	
+	<distributionManagement>
+  <repository>
+    <id>javab-java-repo</id>
+    <name>javab-java-repo</name>
+    <url>https://javab-211125578265.d.codeartifact.us-east-1.amazonaws.com/maven/java-repo/</url>
+  </repository>
+</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
